@@ -1,0 +1,33 @@
+<link href="check.css" rel="stylesheet" type="text/css">
+<main>
+<input id="tab1" type="radio" name="tabs" checked>
+<label for="tab1">Home</label>
+<input id="tab2" type="radio" name="tabs">
+<label for="tab2">About</label>
+<input id="tab3" type="radio" name="tabs">
+<label for="tab3">Contact</label>
+<input id="tab4" type="radio" name="tabs">
+<label for="tab4">Others</label>
+<section id="content1">
+<h3>Selamat Datang TWDers</h3>
+<p>Halaman ini adalah contoh dari tab yang dijelaskan pada artikel <strong><a href="http://www.tutorial-webdesign.com/membuat-tab-dengan-css">Membuat Tab Dengan CSS</a></strong>, tab ini dibuat tanpa jquery lho</p>
+</section>
+<section id="content2">
+<h3>About TWD</h3>
+<p>TWD | Tutorial-webdesign.com adalah website yang menyajikan artikel dan tutorial seputar pembuatan website dan desain, berdiri sejak tahun 2012</p>
+<p>Website ini membahas Web Design & Development</p>
+<p>Beberapa yang dibahas adalah <a href="http://www.tutorial-webdesign.com/tag/html/">HTML</a>, <a href="http://www.tutorial-webdesign.com/tag/css/">CSS</a>, <a href="http://www.tutorial-webdesign.com/tag/javascript/">Javascript</a>, <a href="http://www.tutorial-webdesign.com/tag/photoshop/">Photoshop</a>, <a href="http://www.tutorial-webdesign.com/tag/php/">PHP</a>, dan lainnya.</p>
+</section>
+<section id="content3">
+<h3>Contact TWD</h3>
+<p>Anda bisa menghubungi kami melalui berbagai media dan berbagai cara</p>
+<p>Email: tut.webdesign@gmail.com</p>
+<p>Facebook: <a href="https://www.facebook.com/tutwebdesign?ref=hl">FB.com/tutwebdesign</a></p>
+<p>Twitter: <a href="http://twitter.com/tut_web">@tut_web</a></p>
+</section>
+<section id="content4">
+<h3>Others</h3>
+<p>Membuat tab biasanya lebih populer dengan menggunakan jquery, namun sebenarnya cukup dengan css saja kita sudah bisa membuat tab yang tak kalah bagusnya.</p>
+<p><a href="http://www.tutorial-webdesign.com/membuat-tabs-dengan-css/">Baca Selengkapnya...</a></p>
+</section>
+</main>

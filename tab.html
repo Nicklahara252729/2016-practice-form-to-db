@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo Accordion Tab Effect CSS3</title>
+<style type="text/css">
+body {
+background: #eee;
+font-size: 1.5em;
+}
+.utama {
+width: 20%;
+margin: 50px 25%;
+}
+.bersih {
+clear: both;
+}
+h1, p {
+text-align: justify;
+}
+a, a:hover, a:link, a:active {
+color: #000;
+display: block;
+text-decoration: none;
+}
+dl {
+padding: 10px;
+}
+dl dt {
+border-radius: 7px;
+border: 1px solid #333;
+margin: 2px 0;
+padding: 10px;
+}
+dl dd {
+overflow: hidden;
+transition: height 1s ease;
+-moz-transition: height 1s ease;
+}
+dl dd:not(:target) {
+height: 0;
+}
+dl dd:target {
+height: 10em;
+}
+dl a.ie:hover dd, dl a.ie:focus dd {
+height: auto;
+color: #fcf !important;
+}
+</style>
+</head>
+<body>
+<article class="utama">
+<dl>
+<dt><a href="#satu">Web Design</a></dt>
+<dd id="satu">
+<p>Ini bukan artikel, Tulisan ini dibuat hanya sebagai contoh dalam beberapa tutorial saja. Karena butuh teks yang banyak dalam menerapkan multi kolom ini. Saya menuliskan teks yang mungkin tidak perlu untuk dibaca. Jika anda tetap membacanya, lebih baik anda membuka dan membaca source kodenya dengan cara CTRL + U / CMD + U. Hayu buka sekarang juga. Selamat mencoba :)</p>
+</dd>
+<dt><a href="#dua">Web Development</a></dt>
+<dd id="dua">
+<p>Ini bukan artikel, Tulisan ini dibuat hanya sebagai contoh dalam beberapa tutorial saja. Karena butuh teks yang banyak dalam menerapkan multi kolom ini. Saya menuliskan teks yang mungkin tidak perlu untuk dibaca. Jika anda tetap membacanya, lebih baik anda membuka dan membaca source kodenya dengan cara CTRL + U / CMD + U. Hayu buka sekarang juga. Selamat mencoba :)</p>
+</dd>
+<dt><a href="#tiga">Desktop Applications</a></dt>
+<dd id="tiga">
+<p>Ini bukan artikel, Tulisan ini dibuat hanya sebagai contoh dalam beberapa tutorial saja. Karena butuh teks yang banyak dalam menerapkan multi kolom ini. Saya menuliskan teks yang mungkin tidak perlu untuk dibaca. Jika anda tetap membacanya, lebih baik anda membuka dan membaca source kodenya dengan cara CTRL + U / CMD + U. Hayu buka sekarang juga. Selamat mencoba :)</p>
+</dd>
+<dt><a href="#empat">Graphics Design</a></dt>
+<dd id="empat">
+<p>Ini bukan artikel, Tulisan ini dibuat hanya sebagai contoh dalam beberapa tutorial saja. Karena butuh teks yang banyak dalam menerapkan multi kolom ini. Saya menuliskan teks yang mungkin tidak perlu untuk dibaca. Jika anda tetap membacanya, lebih baik anda membuka dan membaca source kodenya dengan cara CTRL + U / CMD + U. Hayu buka sekarang juga. Selamat mencoba :)</p>
+</dd>
+</dl>
+</article>
+</body>
+</html>

@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+utama {
+background: #FFF;
+width: 93%;
+height:auto;
+margin-top: -5px ;
+padding: 0px 30px 0px;
+box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+#nw {
+font-size: 20px;
+}
+/* Important code */
+#tab5, article {
+clear: both;
+padding-top: 10px;
+display:none;
+}
+#tab6, article {
+clear: both;
+padding-top: 10px;
+display:none;
+}
+#tab7, article {
+clear: both;
+padding-top: 10px;
+display:none;
+}
+#tab8, article {
+clear: both;
+padding-top: 10px;
+display:none;
+}
+label {
+font-weight: bold;
+font-size: 20px;
+font-family:"Lao UI";
+display: block;
+float: left;
+padding: 10px 53px;
+border-top: 5px solid transparent;
+border-right: 1px solid transparent;
+border-left: 1px solid transparent;
+border-bottom: 1px solid #DDD;
+}
+label:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+#tab5:checked ~ #content5, #tab6:checked ~ #content6, #tab7:checked ~ #content7, #tab8:checked ~ #content8 {
+display: block;
+}
+input:checked + label {
+border-top-color: #B7977B;
+border-right-color: #DDD;
+border-left-color: #DDD;
+border-bottom-color: transparent;
+text-decoration: none;
+}
+#qw{
+	width:40%;
+	height:50px;
+	font-family:"Lao UI";
+	font-size:20px;
+	color:#a61818;
+	float:left;
+	margin-left:8px;
+}
+#wq{
+	width:55%;
+	height:50px;
+	font-family:"Lao UI";
+	font-size:20px;
+	color:#a61818;
+	float:right;
+
+}
+#sqs{
+	width:40%;
+	height:50px;
+	font-family:"Lao UI";
+	font-size:20px;
+	color:#a61818;
+	float:left;
+	margin-left:8px;
+}
+#qsq{
+	width:55%;
+	height:50px;
+	font-family:"Lao UI";
+	font-size:20px;
+	color:#a61818;
+	float:right;
+	margin-left:10px;
+
+}
+#eno{
+	height:50px;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:-0px;
+	font-family:"Lao UI";
+	font-size:20px;
+}
+#o1o{
+	height:50px;
+	width:50px;
+	float:left;
+	margin-left:20px;
+}
+#o2o{
+	height:50px;
+	width:70%;
+	float:right;
+}
+#li{
+	width:100%;
+	height:200px;
+}
+#masa{
+	width:500px;
+	height:45px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:10px;
+	margin-left:20px;
+	font-family:"Lao UI";
+	color: #ACACAC;
+	box-shadow:0px 0px 2px 0px #C0C0C0;
+}
+#nyata{
+	width:500px;
+	height:90px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:10px;
+	margin-left:20px;
+	font-family:"Lao UI";
+	color: #ACACAC;
+	box-shadow:0px 0px 2px 0px #C0C0C0;
+}
+#mirik{
+	background-color:#a61818;
+	width:100px;
+	height:45px;
+	font-family:"Lao UI";
+	font-weight:bold;
+	color:#fff;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:10px;
+	margin-left:20px;
+}
+#kirim:hover{
+	background-color:#ACACAC;
+	color:#fff;
+	border:0px;
+}
+#di{
+	width:500px;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:10px;
+	margin-left:20px;
+	font-family:"Lao UI";
+	background:#a61818;
+	text-align:center;
+	color:#fff;
+	padding-top:5px;
+}
+
+#li{
+	height:400px;
+}

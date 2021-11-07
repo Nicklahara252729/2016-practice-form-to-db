@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+
+* {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+body {
+	font-family: "Comic Sans MS", cursive;
+	background-image: url(../Image/n.png);
+	background-size: cover;
+}
+#container {
+	width: 1000px;
+	margin:0 auto;
+}
+#header {
+	background-color:#FF5;
+	background-image: url(../Image/header1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 150px;
+	width: 1000px;
+}
+#menu {
+	background-color: #009FAA;
+	height: 35px;
+	width: 1000px;
+}
+#conten {
+	background-color: #000;
+	height: 500px;
+	width: 1000px;
+	opacity:0.3;
+	filter:alpha(opacity=60);
+}
+#footer {
+	background-image: url(../Image/footer.gif);
+	float: left;
+	height: 130px;
+	width: 1000px;
+	color:#FFF;
+}
+#copy {
+	font-family: "Wolf in the City", "MS Outlook";
+	font-size: 27px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#copy a {
+	color: #FFF;
+}
+#copy a:link {
+	text-decoration: underline;
+}
+#copy a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+
+#copy a:active {
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+#f1 a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+#f1 a:active {
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+#f1 {
+	font-family: "Wolf in the City", "MS Outlook";
+	font-size: 50px;
+	text-align:center;
+	color:#FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#f1 a:link {
+	text-decoration: none;
+	color:#fff;
+}
+#f1 a{
+	color:#FFF;
+}
+#copy {
+	font-family: "Wolf in the City", "MS Outlook";
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#copy a {
+	color: #FFF;
+}
+#copy a:link {
+	text-decoration: underline;
+}
+#copy a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+
+#copy a:active {
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
